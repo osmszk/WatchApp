@@ -15,7 +15,6 @@ class DetailRowController: NSObject {
     var content: String? {
         didSet {
             guard let content = content else { return }
-            
             detailLabel.setText(content)  
         }
     }

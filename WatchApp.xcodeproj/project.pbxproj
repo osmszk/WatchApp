@@ -161,10 +161,10 @@
 		C793E5092217CA7700AE9ED3 /* WatchApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C793E50A2217CA7700AE9ED3 /* InterfaceController.swift */,
-				C793E5232217F7D600AE9ED3 /* MenuInterfaceController.swift */,
 				C793E50C2217CA7700AE9ED3 /* ExtensionDelegate.swift */,
 				C793E50E2217CA7700AE9ED3 /* NotificationController.swift */,
+				C793E50A2217CA7700AE9ED3 /* InterfaceController.swift */,
+				C793E5232217F7D600AE9ED3 /* MenuInterfaceController.swift */,
 				C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */,
 				C793E5252217F90100AE9ED3 /* DetailRowController.swift */,
 				C793E5102217CA7700AE9ED3 /* Assets.xcassets */,
