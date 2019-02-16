@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73F2BA02218BD6900C5CAEC /* hotcook_menu.json in Resources */ = {isa = PBXBuildFile; fileRef = C73F2B9F2218BD6900C5CAEC /* hotcook_menu.json */; };
+		C73F2BA22218BD8700C5CAEC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73F2BA12218BD8700C5CAEC /* Menu.swift */; };
+		C73F2BA32218BF6100C5CAEC /* hotcook_menu.json in Resources */ = {isa = PBXBuildFile; fileRef = C73F2B9F2218BD6900C5CAEC /* hotcook_menu.json */; };
+		C73F2BA42218BF6400C5CAEC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73F2BA12218BD8700C5CAEC /* Menu.swift */; };
 		C793E4E82217CA7400AE9ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E4E72217CA7400AE9ED3 /* AppDelegate.swift */; };
 		C793E4EA2217CA7400AE9ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E4E92217CA7400AE9ED3 /* ViewController.swift */; };
 		C793E4ED2217CA7400AE9ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C793E4EB2217CA7400AE9ED3 /* Main.storyboard */; };
@@ -68,6 +72,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C73F2B9F2218BD6900C5CAEC /* hotcook_menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotcook_menu.json; sourceTree = "<group>"; };
+		C73F2BA12218BD8700C5CAEC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		C793E4E42217CA7400AE9ED3 /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C793E4E72217CA7400AE9ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C793E4E92217CA7400AE9ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +170,8 @@
 				C793E5102217CA7700AE9ED3 /* Assets.xcassets */,
 				C793E5122217CA7700AE9ED3 /* Info.plist */,
 				C793E5132217CA7800AE9ED3 /* PushNotificationPayload.apns */,
+				C73F2B9F2218BD6900C5CAEC /* hotcook_menu.json */,
+				C73F2BA12218BD8700C5CAEC /* Menu.swift */,
 			);
 			path = "WatchApp WatchKit Extension";
 			sourceTree = "<group>";
@@ -270,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73F2BA32218BF6100C5CAEC /* hotcook_menu.json in Resources */,
 				C793E4F22217CA7600AE9ED3 /* LaunchScreen.storyboard in Resources */,
 				C793E4EF2217CA7600AE9ED3 /* Assets.xcassets in Resources */,
 				C793E4ED2217CA7400AE9ED3 /* Main.storyboard in Resources */,
@@ -289,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73F2BA02218BD6900C5CAEC /* hotcook_menu.json in Resources */,
 				C793E5112217CA7700AE9ED3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73F2BA42218BF6400C5CAEC /* Menu.swift in Sources */,
 				C793E4EA2217CA7400AE9ED3 /* ViewController.swift in Sources */,
 				C793E4E82217CA7400AE9ED3 /* AppDelegate.swift in Sources */,
 			);
@@ -311,6 +322,7 @@
 			files = (
 				C793E5222217F4BB00AE9ED3 /* CategoryRowController.swift in Sources */,
 				C793E5262217F90100AE9ED3 /* DetailRowController.swift in Sources */,
+				C73F2BA22218BD8700C5CAEC /* Menu.swift in Sources */,
 				C793E50F2217CA7700AE9ED3 /* NotificationController.swift in Sources */,
 				C793E50D2217CA7700AE9ED3 /* ExtensionDelegate.swift in Sources */,
 				C793E50B2217CA7700AE9ED3 /* InterfaceController.swift in Sources */,

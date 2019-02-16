@@ -14,25 +14,24 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet weak var categoryTable: WKInterfaceTable!
     
-    var categories = ["カレー・スープ", "煮物", "ゆでモノ"]
+    var menus = Menu.allMenus()
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         
-        categoryTable.setNumberOfRows(categories.count, withRowType: "CategoryRow")
+        categoryTable.setNumberOfRows(menus.count, withRowType: "CategoryRow")
     
         for index in 0..<categoryTable.numberOfRows {
             guard let controller = categoryTable.rowController(at: index) as? CategoryRowController else { continue }
             
-            controller.category = categories[index]
-            controller.rowIndex = index
+            controller.menu = menus[index]
         }
     }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
-        let category = categories[rowIndex]
-        presentController(withName: "Category", context: category)
+        let menu = menus[rowIndex]
+        presentController(withName: "Category", context: menu)
     }
     
     override func willActivate() {

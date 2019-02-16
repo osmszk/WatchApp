@@ -13,13 +13,10 @@ class CategoryRowController: NSObject {
 
     @IBOutlet var categoryLabel: WKInterfaceLabel!
     
-    var rowIndex: Int?
-    var category: String? {
+    var menu: Menu? {
         didSet {
-            guard let category = category else { return }
-            
-            categoryLabel.setText(category)
-            
+            guard let menu = menu else { return }
+            categoryLabel.setText(menu.category)
         }
     }
 }

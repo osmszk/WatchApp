@@ -12,12 +12,11 @@ class DetailRowController: NSObject {
 
     @IBOutlet var detailLabel: WKInterfaceLabel!
     
-    var menu: String? {
+    var content: String? {
         didSet {
-            guard let menu = menu else { return }
+            guard let content = content else { return }
             
-            detailLabel.setText(menu)
-            
+            detailLabel.setText(content)  
         }
     }
 }
