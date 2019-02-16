@@ -1,7 +1,7 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
+            "body": "てすと message",
             "title": "Optional title",
             "subtitle": "Optional subtitle"
         },
@@ -11,7 +11,7 @@
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
+            "title": "ぼたんです！",
             "identifier": "firstButtonAction"
         }
     ],

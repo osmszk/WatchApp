@@ -20,6 +20,7 @@
 		C793E50D2217CA7700AE9ED3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E50C2217CA7700AE9ED3 /* ExtensionDelegate.swift */; };
 		C793E50F2217CA7700AE9ED3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E50E2217CA7700AE9ED3 /* NotificationController.swift */; };
 		C793E5112217CA7700AE9ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793E5102217CA7700AE9ED3 /* Assets.xcassets */; };
+		C793E5222217F4BB00AE9ED3 /* CategoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		C793E5102217CA7700AE9ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C793E5122217CA7700AE9ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C793E5132217CA7800AE9ED3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				C793E50A2217CA7700AE9ED3 /* InterfaceController.swift */,
 				C793E50C2217CA7700AE9ED3 /* ExtensionDelegate.swift */,
 				C793E50E2217CA7700AE9ED3 /* NotificationController.swift */,
+				C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */,
 				C793E5102217CA7700AE9ED3 /* Assets.xcassets */,
 				C793E5122217CA7700AE9ED3 /* Info.plist */,
 				C793E5132217CA7800AE9ED3 /* PushNotificationPayload.apns */,
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C793E5222217F4BB00AE9ED3 /* CategoryRowController.swift in Sources */,
 				C793E50F2217CA7700AE9ED3 /* NotificationController.swift in Sources */,
 				C793E50D2217CA7700AE9ED3 /* ExtensionDelegate.swift in Sources */,
 				C793E50B2217CA7700AE9ED3 /* InterfaceController.swift in Sources */,
@@ -400,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -455,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -524,7 +528,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Debug;
 		};
@@ -543,7 +547,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
