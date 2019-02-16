@@ -8,6 +8,36 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
     </dependencies>
     <scenes>
+        <!--メニュー-->
+        <scene sceneID="Q4u-Ra-flR">
+            <objects>
+                <controller identifier="Category" title="メニュー" id="5Ol-Ef-b3u" customClass="MenuInterfaceController" customModule="WatchApp_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="7H0-p5-je4">
+                            <items>
+                                <tableRow identifier="MenuRow" id="v5d-AQ-sBr" customClass="DetailRowController" customModule="WatchApp_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="Fn0-vp-dVW">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="xOg-hJ-tmd">
+                                                <color key="color" red="0.21176470588235294" green="0.50588235294117645" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </separator>
+                                            <label height="49" alignment="left" text="Label" id="NVL-Ow-h7m"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="detailLabel" destination="NVL-Ow-h7m" id="t7z-yH-5nW"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="menuTable" destination="7H0-p5-je4" id="FJW-nC-oz6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="290" y="152"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>

@@ -13,6 +13,7 @@ class CategoryRowController: NSObject {
 
     @IBOutlet var categoryLabel: WKInterfaceLabel!
     
+    var rowIndex: Int?
     var category: String? {
         didSet {
             guard let category = category else { return }

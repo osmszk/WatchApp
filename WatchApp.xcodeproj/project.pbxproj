@@ -21,6 +21,8 @@
 		C793E50F2217CA7700AE9ED3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E50E2217CA7700AE9ED3 /* NotificationController.swift */; };
 		C793E5112217CA7700AE9ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C793E5102217CA7700AE9ED3 /* Assets.xcassets */; };
 		C793E5222217F4BB00AE9ED3 /* CategoryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */; };
+		C793E5242217F7D600AE9ED3 /* MenuInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E5232217F7D600AE9ED3 /* MenuInterfaceController.swift */; };
+		C793E5262217F90100AE9ED3 /* DetailRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C793E5252217F90100AE9ED3 /* DetailRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		C793E5122217CA7700AE9ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C793E5132217CA7800AE9ED3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowController.swift; sourceTree = "<group>"; };
+		C793E5232217F7D600AE9ED3 /* MenuInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInterfaceController.swift; sourceTree = "<group>"; };
+		C793E5252217F90100AE9ED3 /* DetailRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				C793E50A2217CA7700AE9ED3 /* InterfaceController.swift */,
+				C793E5232217F7D600AE9ED3 /* MenuInterfaceController.swift */,
 				C793E50C2217CA7700AE9ED3 /* ExtensionDelegate.swift */,
 				C793E50E2217CA7700AE9ED3 /* NotificationController.swift */,
 				C793E5212217F4BB00AE9ED3 /* CategoryRowController.swift */,
+				C793E5252217F90100AE9ED3 /* DetailRowController.swift */,
 				C793E5102217CA7700AE9ED3 /* Assets.xcassets */,
 				C793E5122217CA7700AE9ED3 /* Info.plist */,
 				C793E5132217CA7800AE9ED3 /* PushNotificationPayload.apns */,
@@ -304,9 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C793E5222217F4BB00AE9ED3 /* CategoryRowController.swift in Sources */,
+				C793E5262217F90100AE9ED3 /* DetailRowController.swift in Sources */,
 				C793E50F2217CA7700AE9ED3 /* NotificationController.swift in Sources */,
 				C793E50D2217CA7700AE9ED3 /* ExtensionDelegate.swift in Sources */,
 				C793E50B2217CA7700AE9ED3 /* InterfaceController.swift in Sources */,
+				C793E5242217F7D600AE9ED3 /* MenuInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

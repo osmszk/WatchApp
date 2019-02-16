@@ -26,12 +26,13 @@ class InterfaceController: WKInterfaceController {
             guard let controller = categoryTable.rowController(at: index) as? CategoryRowController else { continue }
             
             controller.category = categories[index]
+            controller.rowIndex = index
         }
     }
     
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
-        let flight = categories[rowIndex]
-        presentController(withName: "Category", context: flight)
+        let category = categories[rowIndex]
+        presentController(withName: "Category", context: category)
     }
     
     override func willActivate() {
